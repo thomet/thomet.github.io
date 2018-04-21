@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Thomas Metzmacher
+description: 'Software Engeniere - Germany, Leipzig'
+url: 'http://thomet.github.com'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Thomas Metzmacher'
+  email: thomas@metzmacher.me
+  twitter_username: tmetzmac
+  facebook_username: thomas.metzmacher
+  github_username:  thomet
+  linkedin_username:  thomet
 
 defaults:
   -
