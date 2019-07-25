@@ -5,10 +5,10 @@ categories: Agile
 tags: Scrum, Agile, Retrospective, RPG
 ---
 
-![My helpful screenshot]({{ "/images/posts/2018-07-20-rpg_retrospective.jpg" | absolute_url }})
-
 I did a funny retrospective last time. One of my hobby is playing Pen&Paper Games (https://en.wikipedia.org/wiki/Tabletop_role-playing_game)
 and I tried to combine this with a Retrospective. I have divided the retro into the following sections (Sorry some of the Pictures have german Text, but should be enough to get an idea of it):
+
+![My helpful screenshot]({{ "/images/posts/2018-07-20-rpg_retrospective.jpg" | absolute_url }})
 
 # 1. Find a hero group
 *Time: 15 min - 20 min*
@@ -17,7 +17,7 @@ Anyone gets a very small character sheet where he can create a hero which should
 - A name (e.g. Sir Thomet)
 - A race (e.g. Dwarf)
 - A class (e.g. Knight)
-- A Level (e.g. 66/100, I sad, find your own scale which can be different to each member) 
+- A Level (e.g. 66/100, I sad, find your own scale which can be different to each member)
 - 3 Main Attributes: Body, Agility and Mind; The sum of all 3 attributes must be 100% (e.g. Body: 25%, Agility: 40%, Mind: 35%)
 - A weapon (e.g Warhammer)
 - A armour if you character have one (e.g. plate armor)
