@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/thomet
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thomet.de
+  * I am thomet (https://keybase.io/thomet) on keybase.
+  * I have a public key ASBaF2ajmpUxkHJcEgYXNY57cFchyM68mXLgYH31oeVzsQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c2cbc5fe5b47f129bac5b3ac8c7e00d5fa18cb66e42c57334e3c065c49cd28100a",
+      "host": "keybase.io",
+      "kid": "01205a1766a39a953190725c120617358e7b705721c8cebc9972e0607df5a1e573b10a",
+      "uid": "8c4c8f4f77c925b5264f9d5d7cec9119",
+      "username": "thomet"
+    },
+    "merkle_root": {
+      "ctime": 1617973930,
+      "hash": "9476cb724b708ed60aaca04594c5cf6eb78887b95ccb1975be85780a75242335c0edeba268846ab49467e7dd5b5dfb2d229fecb10ca6fb8f1370fd74dc66bf90",
+      "hash_meta": "efeeb8fa832b9a66d74a4c834fd0c344dbd987910b95b48a7b36527efcfa8514",
+      "seqno": 19587602
+    },
+    "service": {
+      "entropy": "vkfSHTwdUBkF8bPfZlO4kTTE",
+      "hostname": "thomet.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1617973957,
+  "expire_in": 504576000,
+  "prev": "7bdf4ef4e81ba3c11aefadfde30da53669c7f5e76c92ab15a845492a6d193f45",
+  "seqno": 79,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWhdmo5qVMZByXBIGFzWOe3BXIcjOvJly4GB99aHlc7EKp3BheWxvYWTESpcCT8Qge99O9Ogbo8Ea76394w2lNmnH9edskqsVqEVJKm0ZP0XEIO7nHmKgisx1HG/6BBQe4a1bihd+2/rm82XG67nNTJLNAgHCo3NpZ8RAyeeyp5EgcKg58rra2u59/2/81cFgfyQtFgCf/LhnbXFLekClPlQVy2fdI7Dty9XgEYzm4FjSG8AIcgi3f66wDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID46QAVpAVfdeeQgO9zNgAnyy/LJCmdgwF/g4a1bb5B8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thomet
+
+==================================================================
