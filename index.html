@@ -16,7 +16,7 @@ robots: noindex
         <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
         <div class="post-list__meta">
             {% if post.source_url %}
-            <span class="post-meta__source">source <a href="{{ post.source_url }}">{{ post.source_url }}</a></span><br>
+            <span class="post-meta__source">source <a href="{{ post.source_url }}" target="_blank">{{ post.source_url }}</a></span><br>
             {% endif %}
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
             {% if post.tags.size > 0 %}
