@@ -21,7 +21,7 @@ layout: default
         {% if post.categories contains catitem[0] %} 
             <li>
               {% if post.external_url %}
-              <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+              <i class="icon icon-link"></i> <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
               {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               {% endif %}
