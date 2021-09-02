@@ -20,7 +20,11 @@ layout: default
         <!-- list only those which contain the current tag --> 
         {% if post.tags contains tagitem[0] %} 
             <li>
+              {% if post.external_url %}
+              <a href="{{ post.external_url  }}" target="_blank">{{ post.title  }}</a>
+              {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              {% endif %}
             </li>
         {% endif %}
       {% endfor %}
