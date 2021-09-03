@@ -56,7 +56,9 @@ pre.highlight code,
 .user-logo {
   position: relative;
   margin-bottom: 10em;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
 }
 
 .user-image {
