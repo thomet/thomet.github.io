@@ -89,7 +89,6 @@ If I accomplish my goals,it means that:
 * I can be a little impetuous and impatient and want to push things along at a fast pace
 * I can become bored as soon as the project becomes routine or loses its intellectual curiosity
 * Some people can quickly find my open-minded way of sharing my attitude to the situation annoying
-* I'm thinking with the help of speaking
 
 ## How can I help you?
 
