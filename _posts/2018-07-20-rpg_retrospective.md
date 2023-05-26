@@ -1,8 +1,7 @@
 ---
 title:  "RPG Retrospective"
 date:   2018-07-20 01:00:00 +0200
-categories: Agile
-tags: Scrum, Agile, Retrospective, RPG
+tags: Agile
 ---
 
 I did a funny retrospective last time. One of my hobby is playing Pen&Paper Games (https://en.wikipedia.org/wiki/Tabletop_role-playing_game)
