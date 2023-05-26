@@ -1,5 +1,5 @@
 ---
-title:  "Tech Teens: Über Mindset und Mentoring"
+title:  "Tech Teens: Über Mindset und Mentoring (DE)"
 date:   2021-04-15 19:00:00 +0200
 tags: Volunteering
 external_url: https://tech-teens.de/2021-03-interview-thomas/
