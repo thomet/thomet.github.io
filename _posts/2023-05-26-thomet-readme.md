@@ -33,6 +33,7 @@ Most of my time I spent with my wife and dog. I love to be in nature, reading/li
 I'm the Engineering Team Leader of an SRE team in Sage CloudOps department. My Job at minimum is to:
 
 * Help my team to engage, retain and grow as world-class talents
+* Protect my team from distractions
 * Provide context
 
 ## My Goal
