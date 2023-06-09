@@ -38,7 +38,7 @@ I'm the Engineering Team Leader of an SRE team in Sage CloudOps department. My J
 
 ## My Goal
 
-If I accomplish my goals,it means that:
+If I accomplish my goals it means that:
 
 * You are empowered to figure out what you need to do and how you think it should be done and then get it done
 * You have room to grow as an individual
@@ -50,7 +50,7 @@ If I accomplish my goals,it means that:
   * trying to gather context, or
   * trying to be a sounding board and rubber duck
 * **You'll let me know if you can't do your job.** One of my main responsibilities is ensuring that you're set up for success. Occasionally things slip through the cracks and I won't know I'm letting you down.
-* **You feel safe debating with me.** I find ideas improve by being examined from all angles. If it sounds like I'm disagreeing, I'm most likely just playing devil's advocate. This does rely on us being to have a safe debate.
+* **You feel safe debating with me.** I find ideas improve by being examined from all angles. If it sounds like I'm disagreeing, I'm most likely just playing devil's advocate. This does rely on us being able to have a safe debate.
 
 ## What (I Think) I'm Good At
 
