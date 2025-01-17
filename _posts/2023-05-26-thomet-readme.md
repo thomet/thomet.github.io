@@ -104,6 +104,7 @@ If I accomplish my goals it means that:
 * **Disagree with me.** The best solutions come from a healthy level of debate. We need to be able to separate our ideas from our egos. I'll challenge your ideas with the goal of coming to the best possible solution, I hope you'll challenge mine.
 * **Tell me when I screw up.** This is very important. I screw up and sometimes don't notice. I need to know, or I'll likely do it again.
 * **Communicate.** One of my jobs is to provide context. Are you missing some? Let me know, and I'll fill you in or go find out.
+* **Motivation through Recognition.** Positive feedback is a strong motivator for me, particularly when it acknowledges meaningful contributions or achievements. Sharing recognition publicly, where it can highlight successes beyond private conversations, inspires me and reinforces the value of our collective efforts.
 
 ## The team
 
