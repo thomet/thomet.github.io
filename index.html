@@ -5,8 +5,32 @@ robots: noindex
 
 <div class="main-post-list">
 
+  {% assign pinned_posts = site.posts | where: "pinned", true | where_exp: "p", "p.hidden != true" %}
+  {% if pinned_posts.size > 0 %}
+  <p class="post-list-section-title">About</p>
+  <ol class="post-list post-list--pinned">
+    {% for post in pinned_posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+        <div class="post-list__meta">
+            {% if post.lang %}
+              {% assign translations = site.posts | where: "lang_ref", post.lang_ref | where_exp: "p", "p.url != post.url" %}
+              {% if translations.size > 0 %}
+              <span class="post-meta__langs">🌐 also in {% for t in translations %}<a href="{{ site.baseurl }}{{ t.url }}" hreflang="{{ t.lang }}">{% if t.lang == "de" %}Deutsch{% elsif t.lang == "en" %}English{% else %}{{ t.lang }}{% endif %}</a> {% endfor %}</span>
+              {% endif %}
+            {% endif %}
+        </div>
+        <hr class="post-list__divider">
+      </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+  <p class="post-list-section-title">Beyond Work</p>
   <ol class="post-list">
     {% for post in paginator.posts %}
+      {% if post.hidden or post.pinned %}{% continue %}{% endif %}
       <li>
         {% if post.external_url %}
         <h2 class="post-list__post-title post-title"><i class="icon icon-link"></i> <a href="{{ post.external_url }}" title="{{ post.title }}" target="_blank">{{ post.title  }}</a></h2>
@@ -21,6 +45,12 @@ robots: noindex
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
             {% if post.tags.size > 0 %}
             &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+            {% endif %}
+            {% if post.lang %}
+              {% assign translations = site.posts | where: "lang_ref", post.lang_ref | where_exp: "p", "p.url != post.url" %}
+              {% if translations.size > 0 %}
+              &#8226; <span class="post-meta__langs">🌐 also in {% for t in translations %}<a href="{{ site.baseurl }}{{ t.url }}" hreflang="{{ t.lang }}">{% if t.lang == "de" %}Deutsch{% elsif t.lang == "en" %}English{% else %}{{ t.lang }}{% endif %}</a> {% endfor %}</span>
+              {% endif %}
             {% endif %}
         </div>
         <hr class="post-list__divider">

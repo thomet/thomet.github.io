@@ -1,19 +1,24 @@
 ---
-title: "thomet.README (EN)"
-date:   2023-05-26 12:00:00 +0200
+title: "thomet.work.README"
+date:   2026-06-16 07:00:00 +0200
 tags: Leading
-excerpt: Introduce myself as a person
+excerpt: How I work with people, teams and systems.
+lang: en
+lang_ref: work-readme
+pinned: true
 permalink: /readme
 ---
 
 ## What is this, even?
 
-I have heard about manager readme from a colleague and was keen to try it out by myself. The readme is a way to:
+I have heard about manager readme from a colleague and was keen to try it out by myself.
 
-* introduce myself as a person
+The readme is a way to:
+
+* introduce myself as a leader and colleague
 * give you some insights into my role
 * give you some insights into how I work
-* help you to get to known me more generally
+* help you understand what you can expect from me
 * answer some likely questions
 
 **Important:**
@@ -22,11 +27,15 @@ I have heard about manager readme from a colleague and was keen to try it out by
 * NOT meant as a replacement for actually getting to know each other
 * The document will change over time as it's still work in progress
 
-## This is me
+**Looking for the person behind the engineering leader?**
 
-![A photo of me]({{ "/images/posts/thomet-readme.jpg" | absolute_url }})
+Read [thomet.personal.README]({{ "/personal-readme" | relative_url }}).
 
-Most of my time I spent with my wife and dog. I love to be in nature, reading/listening to fantasy books, playing pen-and-paper games and visiting middle age markets.
+## A little about me
+
+![A photo of me]({{ "/images/posts/thomet-work-readme.jpg" | absolute_url }})
+
+Outside of work I enjoy spending time with my family, being outdoors and pursuing a variety of interests that keep me curious and learning.
 
 ## My Job
 
@@ -54,6 +63,7 @@ If I accomplish my goals it means that:
 
 ## What (I Think) I'm Good At
 
+* Building trust through honest conversations and empathy
 * Giving and Receiving feedback, both positive and negative
 * Helping analyze a problem and find solutions
 * Bring order and structure to jobs through my analysis and concern for systematic completion and understanding the 'big picture'
@@ -67,6 +77,14 @@ If I accomplish my goals it means that:
 * I like jobs that have complexity and the challenge of the unknown about them
 * I don't like leaving things hanging in the air for too long and like to push on to see how they will turn out in practice
 * I prefer to work in an orderly and structured way
+
+## What motivates me
+
+* Seeing people succeed
+* Learning and growth
+* Curious people
+* Solving meaningful problems
+* Healthy debate
 
 ## Tips for better linking
 
@@ -179,3 +197,7 @@ Thanks for reading the document about me. It will develop over time and I'd love
 * Were there information included that you didn't find useful?
 
 If you see me not living up to anything included, please let me know. It's possible that I've changed my mind. More likely, I'm dropping the ball. Either way, I'd like to know.
+
+**Looking for the person behind the engineering leader?**
+
+Read [thomet.personal.README]({{ "/personal-readme" | relative_url }}).

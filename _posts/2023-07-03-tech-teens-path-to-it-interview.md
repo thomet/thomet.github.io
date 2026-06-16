@@ -1,5 +1,5 @@
 ---
-title:  "Tech Teens: Mein Weg in die IT Branche (DE)"
+title:  "Tech Teens: Mein Weg in die IT Branche"
 date:   2023-07-03 12:00:00 +0200
 tags: Volunteering
 external_url: https://www.youtube.com/watch?v=undH4Z1LHGI

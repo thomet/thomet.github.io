@@ -9,6 +9,21 @@ layout: default
       &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
       {% endif %}
     </div>
+
+    {% if page.lang %}
+      {% assign translations = site.posts | where: "lang_ref", page.lang_ref | where_exp: "p", "p.url != page.url" %}
+      {% if translations.size > 0 %}
+      <div class="post-lang-switcher">
+        <span>🌐</span>
+        {% for t in translations %}
+          <a href="{{ site.baseurl }}{{ t.url }}" hreflang="{{ t.lang }}">
+            {% if t.lang == "de" %}Deutsch{% elsif t.lang == "en" %}English{% else %}{{ t.lang }}{% endif %}
+          </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endif %}
+
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 

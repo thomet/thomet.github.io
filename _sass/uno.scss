@@ -1463,6 +1463,16 @@ i {
 	margin: 2.2em 0 2.1em 0;
 	border-top: 1px solid #dddddd; }
 
+.post-list-section-title {
+	margin: 1.8em 0 0.8em 0;
+	font-size: .75em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #bbbbbb;
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 0.5em; }
+
 *:focus {
 	outline: none; }
 
@@ -1680,3 +1690,9 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+.post-lang-switcher {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  a { margin-left: 0.4em; }
+}
